@@ -10,7 +10,6 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-height: 100px;
 }
 
 
@@ -67,14 +66,8 @@ main{
 
 .meme-image{
    max-width: 100%;
-}
-.meme-images{
-
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   padding: 20px;
-   
+   border-radius: 3px;
+   margin-top: 20px;
 }
 
 .meme--text {
@@ -103,7 +96,7 @@ main{
 }
 
 .bottom {
-    bottom: 20%;
+    bottom: 1%;
 }
 
 .top {
